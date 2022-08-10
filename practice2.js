@@ -4,12 +4,12 @@ Script: calculadora para saber cuantos años faltan para retiro, mostrara nombre
 let nombre = prompt ("ingrese nombre");
 let apellidopaterno = prompt ("ingrese apellido paterno");
 let apellidomaterno = prompt ("ingrese apellido materno");
-const edad = parseInt(prompt("ingrese edad"));
-const anosdeservicio = parseInt(prompt("ingrese años trabajados"));
+let edad = parseInt(prompt("ingrese edad"));
+let anosdeservicio = parseInt(prompt("ingrese años trabajados"));
 
 let nombrecompleto = (`${nombre} ${apellidopaterno} ${apellidomaterno}`);
-const anosrestantes = parseInt(30 - anosdeservicio);
-const edadretiro = (edad + anosrestantes);
+let anosrestantes = parseInt(30 - anosdeservicio);
+let edadretiro = (edad + anosrestantes);
 console.log("nombre completo empleado es ",nombrecompleto);
 console.log("años de servicio restantes",anosrestantes);
 console.log("edad de retiro",edadretiro);
