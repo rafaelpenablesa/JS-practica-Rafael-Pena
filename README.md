@@ -1,2 +1,2 @@
 # JS-practica-Rafael-Pena
-Calculadora del retiro Practica 1
+Calculadora del retiro Entregable 1
